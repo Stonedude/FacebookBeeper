@@ -1,3 +1,14 @@
+This is an intro project to learning React and Redux in conjunction
+
+The product is supposed to be a Facebook like counter, but we'll see about that :D
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
