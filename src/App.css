@@ -1,21 +1,52 @@
 .App {
-  text-align: center;
+  display: grid;
+  min-height: 100vh;
+  grid-auto-rows: 20% auto 20%;
+  grid-template-areas: 'title' 'likey' 'who';
+
+  grid-gap: 10px;
+  background-color: #0C426A;
+  padding: 10px;
+  border-style: dashed;
 }
 
+.grid-item {
+  text-align: center;
+  align-content: center;
+  color: #DCDDDE;
+  border-style: dotted;
+}
+
+#appHeader {grid-area: title;}
+#appLogo{grid-area: likey;}
+#who {grid-area: who;}
+
+/*
+Colores:
+Mørk blå - #0C426A
+MAKE gul - #F8C700
+Cyan - #00EBB3
+
+Mørk - #4A4A4D
+Grå - #DCDDDE
+
+*/
+
+/*
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #fff;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 .App-link {
@@ -30,3 +61,4 @@
     transform: rotate(360deg);
   }
 }
+*/

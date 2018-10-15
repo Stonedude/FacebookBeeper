@@ -6,20 +6,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Welcome to the first part of the rest of your life :D
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <header className="grid-item" id="appHeader">
+          <h1>Lik oss på facebook/MAKE NTNU :D</h1>
         </header>
+
+        <body className="grid-item" id="appLogo">
+          <img src={logo} alt="logo" />
+          <div>Så mange likes har vi dah</div>
+        </body>
+        <footer className="grid-item" id="who">I like turtles</footer>
+
       </div>
     );
   }
