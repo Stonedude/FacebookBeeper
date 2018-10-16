@@ -17,6 +17,10 @@
   border-style: dotted;
 }
 
+p {
+  color: #DCDDDE;
+}
+
 #appHeader {grid-area: title;}
 #appLogo{grid-area: likey;}
 #who {grid-area: who;}
